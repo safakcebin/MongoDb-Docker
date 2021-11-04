@@ -10,8 +10,3 @@ services:
       - 27017:27017
     volumes:
       - ~/mongodb:/data/db
-    networks:
-      - ac_default
-networks:
-  ac_default:
-    driver: bridge
